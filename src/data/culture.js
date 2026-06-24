@@ -1,0 +1,51 @@
+export const cultureCards = [
+  {
+    id: 'c1',
+    title: 'Joint Family & Aunty-Uncle Culture',
+    body: 'In Indian families, "aunty" and "uncle" are used for any adult who isn\'t a stranger — your friend\'s parents, a neighbor, even a shopkeeper you respect. It signals warmth and deference, not blood relation. Walking into an Indian space and calling adults "aunty/uncle" correctly will earn you immediate goodwill.',
+    example: '"Aunty, chai milegi?" (Aunty, could I get some tea?) — said to a neighbor you\'ve met twice.',
+    partnerNote: 'Roleplay: your partner is an "aunty who is very concerned about your marriage plans." You are the deflecting nephew/niece. Stay polite, stay in Hindi.',
+  },
+  {
+    id: 'c2',
+    title: 'The Engineering/Doctor Pipeline',
+    body: 'The default Indian middle-class aspiration is IIT (engineering) or AIIMS/MBBS (medicine). Everything else is technically a hobby. At a show, if Rahul asks "kya karte ho?" (what do you do), your non-engineer/doctor answer is material. Use this.',
+    example: '"Main German hun jo Hindi seekh raha hai comedy show ke liye." (I\'m a German learning Hindi for a comedy show.) — self-aware, disarms everything.',
+    partnerNote: 'Practice: answer "Aap kya karte ho?" in Hindi without mentioning your actual job. Describe it around the edges. See how long you can avoid the direct word.',
+  },
+  {
+    id: 'c3',
+    title: 'Shaadi (Wedding) Culture',
+    body: 'Indian weddings are 3–7 day affairs with 200–1,000 guests, mehendi ceremonies, sangeets, multiple outfit changes, and aunties whose primary function is asking when you\'re getting married. "Shaadi kab karoge?" is one of the most feared questions in Indian social life — especially at a comedy show where it can be weaponized.',
+    example: '"Shaadi kab karoge?" (When will you get married?) — the question that ends conversations.',
+    partnerNote: 'Prepare a Hindi deflection: "Pehle Hindi seekh lun. Phir dekhunga." (Let me learn Hindi first. Then I\'ll see.) Practice until it sounds casual.',
+  },
+  {
+    id: 'c4',
+    title: 'Cricket Is Religion',
+    body: 'IPL season briefly stops the country. Sachin Tendulkar is considered a god in the literal sense by some. Not knowing who Virat Kohli is would be a scandal. The India vs. Pakistan match is the most-watched sporting event on the planet. If you don\'t care about cricket, pretend — or use not caring as your punchline.',
+    example: '"Aaj match hai!" (There\'s a match today!) — said with the energy of announcing a national holiday.',
+    partnerNote: 'Learn one sentence: "Kohli ne phir mara!" (Kohli hit it again!) and deploy it randomly in conversation this week.',
+  },
+  {
+    id: 'c5',
+    title: 'Bollywood Literacy',
+    body: 'DDLJ (Dilwale Dulhania Le Jayenge), 3 Idiots, Sholay — these aren\'t just old films. They\'re cultural DNA that every Indian over 20 carries. Rahul\'s comedy references them constantly. Quoting them at the right moment is a social superpower. "All is well" from 3 Idiots is understood by anyone who grew up in India.',
+    example: '"Bade bade deshon mein..." — the first line of a famous DDLJ speech. Any Indian over 25 will complete it automatically.',
+    partnerNote: 'Watch 3 Idiots together this week. Count every cultural reference. Then quiz each other on the plot in Hindi.',
+  },
+  {
+    id: 'c6',
+    title: 'North vs. South',
+    body: 'The India that most Bollywood represents is the Hindi-speaking North. South India (Tamil Nadu, Kerala, Karnataka, Andhra) has different languages, food, and culture. Abhishek is from Delhi — solidly North Indian — which means his Hindi is natural and colloquial. Knowing the North/South divide makes you a more sophisticated audience member and harder to fool.',
+    example: '"Idli-dosa gang vs. roti-sabzi gang" — the food-based shorthand for the North/South identity divide.',
+    partnerNote: 'Ask your partner: "What\'s a South Indian perspective on something typically North Indian?" Then find a Hindi way to say it.',
+  },
+  {
+    id: 'c7',
+    title: 'The Gora Advantage',
+    body: '"Gora" (literally "fair-skinned," colloquially "foreigner/white person") at an Indian comedy show is an event. People will stare, assume you understand nothing, and watch Abhishek use you as material. Playing against that assumption — waiting until the audience has fully written you off, then responding in crisp Hindi — is your single biggest weapon.',
+    example: '"Socha tha gora kuch nahi samjhega." (Thought the gora wouldn\'t understand anything.) — what the crowd is thinking as you sit there.',
+    partnerNote: 'Practice the reveal: say nothing in Hindi for the first five minutes of practice. Then unexpectedly answer a question correctly. Study your partner\'s reaction — that\'s what you\'re going for.',
+  },
+]
