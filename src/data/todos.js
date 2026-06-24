@@ -13,6 +13,7 @@ export const todos = {
       title: 'Grammar focus: SOV sentence structure',
       description: 'Hindi puts the verb at the end. "Main paani peeta hun" = "I water drink am." Practice flipping 10 English sentences with Claude.',
       category: 'Claude',
+      claudePrompt: 'You are a Hindi grammar expert. Today\'s focus is SOV word order — the core of Hindi sentence structure. In Hindi, the verb always goes at the end: "Main paani peeta hun" = "I water drink (am)." First explain this clearly with 5 examples comparing English and Hindi word order. Then give me 10 English sentences to translate into Hindi. After I submit each one, correct it and explain any word order or grammar mistakes. I am a German beginner learning Hindi.',
     },
     {
       id: 'mon-3',
@@ -20,6 +21,7 @@ export const todos = {
       title: 'Write 5 sentences about your week',
       description: 'Use a Hindi keyboard. Describe what you did in simple present. Check with Claude after — ask it to correct and explain each mistake.',
       category: 'Writing',
+      claudePrompt: 'You are a Hindi writing tutor. I will write a short paragraph or sentences in Hindi (or a mix of Hindi and romanization if I\'m not confident with the script yet). Please: (1) show my original text, (2) mark every grammar, vocabulary, or word order error with a [bracket] and explanation, (3) give the fully corrected version. Be thorough — I want to catch every mistake.',
     },
     {
       id: 'mon-4',
@@ -50,6 +52,7 @@ export const todos = {
       title: 'Vocabulary builder: 10 new words',
       description: 'Ask Claude for 10 high-frequency Hindi words you likely don\'t know yet. Learn each with a sentence. Add all 10 to Anki tonight.',
       category: 'Claude',
+      claudePrompt: 'You are a Hindi vocabulary teacher. Give me 10 high-frequency Hindi words I likely don\'t know yet, chosen for an intermediate-beginner learner. For each word: (1) the word in Devanagari, (2) romanization, (3) English meaning, (4) an example sentence in Hindi with translation, (5) a one-line memory hook. Format it clearly so I can copy the words into Anki.',
     },
     {
       id: 'tue-4',
@@ -73,6 +76,7 @@ export const todos = {
       title: 'Grammar focus: postpositions',
       description: 'Hindi uses postpositions (after the noun) not prepositions. Practice: ghar mein (in the house), station ke paas (near the station), mez par (on the table).',
       category: 'Claude',
+      claudePrompt: 'You are a Hindi grammar expert. Today\'s focus is postpositions — Hindi puts these AFTER the noun, unlike English prepositions. Cover these essential ones: में (mein - in), पर (par - on/at), को (ko - to/for), से (se - from/by/with), के लिए (ke liye - for), के साथ (ke saath - with), तक (tak - until/up to), के पास (ke paas - near/have), के बारे में (ke baare mein - about). First explain each with 2 clear examples. Then give me 10 fill-in-the-blank exercises. Correct everything I submit.',
     },
     {
       id: 'wed-3',
@@ -80,6 +84,7 @@ export const todos = {
       title: 'Write a paragraph about yourself',
       description: 'In Hindi: who are you, where you\'re from, why you\'re learning Hindi. Be honest — "Abhishek Upmanyu ke show ke liye" is a perfectly valid reason.',
       category: 'Writing',
+      claudePrompt: 'You are a Hindi writing tutor. I will write a short paragraph in Hindi (or a mix of Hindi and romanization if I\'m not confident with the script yet). Please: (1) show my original text, (2) mark every grammar, vocabulary, or word order error with a [bracket] and explanation, (3) give the fully corrected version. Be thorough — I want to catch every mistake.',
     },
     {
       id: 'wed-4',
@@ -110,6 +115,7 @@ export const todos = {
       title: 'Comedy phrases & timing with Claude',
       description: 'Use the Practice tab → "Comedy Context" session. Ask for 5 comeback phrases and a breakdown of when/why each one lands.',
       category: 'Claude',
+      claudePrompt: 'You are an expert in Indian stand-up comedy, specifically Abhishek Upmanyu\'s style. Explain: (1) what kinds of audience members he typically targets and why, (2) the cultural assumptions behind his "gori at an Indian show" material, (3) why brevity and deadpan delivery work especially well in Hindi comedy, (4) how to use the "surprise competence" move — being assumed clueless, then responding sharply. Give me 5 specific comeback phrases I could realistically use, with a note on when and why each one lands.',
     },
     {
       id: 'thu-4',
@@ -133,6 +139,7 @@ export const todos = {
       title: 'Hindi conversation session with Claude',
       description: 'Use Practice tab → "Basic Hindi Conversation." Set a rule: no English for 15 minutes. Describe in Hindi if you\'re stuck on a word.',
       category: 'Claude',
+      claudePrompt: 'You are a patient Hindi tutor. I am a German beginner learning Hindi. Start a simple Hindi conversation with me, adapting to my level. Correct my grammar gently after each of my messages, and explain why. Ask me about simple topics like my day, where I live, what I like. If I get stuck, offer a hint in brackets.',
     },
     {
       id: 'fri-3',
@@ -140,6 +147,7 @@ export const todos = {
       title: 'Write your ideal clap back script',
       description: 'Write 3–5 sentences you\'d genuinely want to say at the show. Then use the Clap Back tab — compare yours to what\'s there. Refine with Claude.',
       category: 'Writing',
+      claudePrompt: 'You are a Hindi writing tutor. I will write a short clap back script in Hindi — sentences I\'d actually want to say at an Abhishek Upmanyu comedy show as a German audience member. Please: (1) show my original text, (2) mark every grammar, vocabulary, or word order error with a [bracket] and explanation, (3) give the fully corrected version. Then also comment on whether the lines would actually land — tone, brevity, timing. Be thorough.',
     },
     {
       id: 'fri-4',
@@ -170,6 +178,7 @@ export const todos = {
       title: 'Culture immersion session',
       description: 'Pick one card from the Culture tab. Have Claude roleplay a scenario around it — e.g., "be an aunty asking about my marriage plans" — and respond in Hindi.',
       category: 'Claude',
+      claudePrompt: 'You are a Hindi tutor and Indian culture expert. We are going to roleplay an Indian social scenario. Choose one of these: (1) an aunty who is very concerned about my marriage plans, (2) a vendor at a busy Delhi market haggling over prices, (3) a cricket enthusiast during an India vs Pakistan match, (4) a nosy neighbour asking about my life choices. Tell me briefly which scenario you\'ve chosen, then start the roleplay entirely in Hindi. After each of my responses, correct my Hindi before continuing the scene.',
     },
     {
       id: 'sat-4',
@@ -193,6 +202,7 @@ export const todos = {
       title: 'Weekly reflection with Claude',
       description: 'Tell Claude (in Hindi, as much as possible) what you learned this week. Ask it to evaluate your Hindi and give you a grammar focus for next week.',
       category: 'Claude',
+      claudePrompt: 'You are a Hindi tutor. I want to do my weekly reflection session. I will describe in Hindi (as much as I can) what I practiced and learned this week. After I speak, please: (1) evaluate my Hindi — note grammar mistakes, word choice issues, and what I did well, (2) identify one specific grammar point or vocabulary area to focus on next week based on what you observed, (3) suggest 5 new words to add to my Anki deck. Start by asking me in Hindi: "Is hafte kya seekha? Batao mujhe."',
     },
     {
       id: 'sun-3',
@@ -200,6 +210,7 @@ export const todos = {
       title: 'Devanagari script practice',
       description: 'Write the consonant alphabet from memory, then write 10 words you know in script. Are you getting faster? Clock yourself.',
       category: 'Writing',
+      claudePrompt: 'You are a Devanagari script teacher. Give me a script practice session: (1) first, give me 10 Hindi words in romanization and ask me to write them in Devanagari — I\'ll type my attempts, (2) then give me 5 simple sentences in Devanagari to read aloud and translate. Correct everything I submit.',
     },
     {
       id: 'sun-4',

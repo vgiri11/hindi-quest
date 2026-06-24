@@ -42,10 +42,10 @@ export const resources = [
       {
         id: 'r5',
         icon: '📺',
-        title: 'Hindi Unplug',
-        description: 'Structured lessons from beginner to intermediate. Polished, consistent, and actually follows a curriculum.',
+        title: 'Learn Hindi with HindiPod101',
+        description: 'Structured lessons from absolute beginner to intermediate. Follows a real curriculum with grammar explanations, vocabulary, and listening practice.',
         cost: 'free',
-        url: 'https://youtube.com/@HindiUnplug',
+        url: 'https://www.youtube.com/channel/UCQjj7y-JGGj12vwhIbuz62Q',
       },
       {
         id: 'r6',

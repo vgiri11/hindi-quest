@@ -37,6 +37,17 @@ export default function TodoItem({ item, checked, onToggle }) {
         <p className="text-sm mt-1" style={{ color: 'var(--text-secondary)' }}>
           {item.description}
         </p>
+        {item.claudePrompt && (
+          <a
+            href={`https://claude.ai/new?q=${encodeURIComponent(item.claudePrompt)}`}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block text-xs font-medium mt-2"
+            style={{ color: 'var(--accent)', textDecoration: 'none' }}
+          >
+            Open in Claude →
+          </a>
+        )}
       </div>
     </div>
   )
