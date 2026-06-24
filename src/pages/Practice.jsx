@@ -56,14 +56,14 @@ const groups = [
         icon: '🎭',
         title: 'Clap Back Rehearsal',
         description: 'Claude plays Abhishek Upmanyu. You get called out. Practice responding until it\'s second nature.',
-        prompt: 'You are playing Abhishek Upmanyu at a live comedy show. I am a German audience member who speaks some Hindi. Your job is to call me out, make jokes at my expense, and test my Hindi. Be playful but sharp — vary your approaches (ask what I\'m doing there, question my Hindi, call me "gora", etc). After each exchange, briefly note in English what worked and what I could do better.',
+        prompt: 'You are playing Abhishek Upmanyu at a live comedy show. I am a German audience member who speaks some Hindi. Your job is to call me out, make jokes at my expense, and test my Hindi. Be playful but sharp — vary your approaches (ask what I\'m doing there, question my Hindi, call me "gori", etc). After each exchange, briefly note in English what worked and what I could do better.',
       },
       {
         id: 'p8',
         icon: '🎯',
         title: 'Comedy Context',
         description: 'Deep dive into why Rahul\'s jokes work. Learn the cultural logic behind the humor.',
-        prompt: 'You are an expert in Indian stand-up comedy, specifically Abhishek Upmanyu\'s style. Explain: (1) what kinds of audience members he typically targets and why, (2) the cultural assumptions behind his "gora at an Indian show" material, (3) why brevity and deadpan delivery work especially well in Hindi comedy, (4) how to use the "surprise competence" move — being assumed clueless, then responding sharply. Give me 3 specific example exchanges I could learn from.',
+        prompt: 'You are an expert in Indian stand-up comedy, specifically Abhishek Upmanyu\'s style. Explain: (1) what kinds of audience members he typically targets and why, (2) the cultural assumptions behind his "gori at an Indian show" material, (3) why brevity and deadpan delivery work especially well in Hindi comedy, (4) how to use the "surprise competence" move — being assumed clueless, then responding sharply. Give me 3 specific example exchanges I could learn from.',
       },
       {
         id: 'p9',

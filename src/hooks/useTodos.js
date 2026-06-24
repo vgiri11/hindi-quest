@@ -7,15 +7,29 @@ export function useTodos() {
     catch { return {} }
   })
 
+  const [studiedDates, setStudiedDates] = useState(() => {
+    try { return JSON.parse(localStorage.getItem('hq-todo-dates') || '[]') }
+    catch { return [] }
+  })
+
   useEffect(() => {
     localStorage.setItem('hq-todos', JSON.stringify(checked))
   }, [checked])
 
+  useEffect(() => {
+    localStorage.setItem('hq-todo-dates', JSON.stringify(studiedDates))
+  }, [studiedDates])
+
   function toggle(day, id) {
+    const isCurrentlyChecked = !!checked[day]?.[id]
     setChecked(prev => ({
       ...prev,
-      [day]: { ...prev[day], [id]: !prev[day]?.[id] },
+      [day]: { ...prev[day], [id]: !isCurrentlyChecked },
     }))
+    if (!isCurrentlyChecked) {
+      const today = new Date().toISOString().split('T')[0]
+      setStudiedDates(prev => prev.includes(today) ? prev : [...prev, today])
+    }
   }
 
   function resetDay(day) {
@@ -29,5 +43,5 @@ export function useTodos() {
     return Math.round((done / items.length) * 100)
   }
 
-  return { checked, toggle, resetDay, getProgress }
+  return { checked, toggle, resetDay, getProgress, studiedDates }
 }

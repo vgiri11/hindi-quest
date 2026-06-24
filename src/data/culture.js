@@ -4,7 +4,7 @@ export const cultureCards = [
     title: 'Joint Family & Aunty-Uncle Culture',
     body: 'In Indian families, "aunty" and "uncle" are used for any adult who isn\'t a stranger — your friend\'s parents, a neighbor, even a shopkeeper you respect. It signals warmth and deference, not blood relation. Walking into an Indian space and calling adults "aunty/uncle" correctly will earn you immediate goodwill.',
     example: '"Aunty, chai milegi?" (Aunty, could I get some tea?) — said to a neighbor you\'ve met twice.',
-    partnerNote: 'Roleplay: your partner is an "aunty who is very concerned about your marriage plans." You are the deflecting nephew/niece. Stay polite, stay in Hindi.',
+    partnerNote: 'Roleplay: your partner is an "aunty who is very concerned about your marriage plans." You are the deflecting niece. Stay polite, stay in Hindi.',
   },
   {
     id: 'c2',
@@ -43,9 +43,9 @@ export const cultureCards = [
   },
   {
     id: 'c7',
-    title: 'The Gora Advantage',
-    body: '"Gora" (literally "fair-skinned," colloquially "foreigner/white person") at an Indian comedy show is an event. People will stare, assume you understand nothing, and watch Abhishek use you as material. Playing against that assumption — waiting until the audience has fully written you off, then responding in crisp Hindi — is your single biggest weapon.',
-    example: '"Socha tha gora kuch nahi samjhega." (Thought the gora wouldn\'t understand anything.) — what the crowd is thinking as you sit there.',
+    title: 'The Gori Advantage',
+    body: '"Gori" (literally "fair-skinned woman," colloquially "foreign/white woman") at an Indian comedy show is an event. People will stare, assume you understand nothing, and watch Abhishek use you as material. Playing against that assumption — waiting until the audience has fully written you off, then responding in crisp Hindi — is your single biggest weapon.',
+    example: '"Socha tha gori kuch nahi samjhegi." (Thought the gori wouldn\'t understand anything.) — what the crowd is thinking as you sit there.',
     partnerNote: 'Practice the reveal: say nothing in Hindi for the first five minutes of practice. Then unexpectedly answer a question correctly. Study your partner\'s reaction — that\'s what you\'re going for.',
   },
 ]
