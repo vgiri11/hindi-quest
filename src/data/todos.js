@@ -71,6 +71,13 @@ export const todos = {
       category: 'Anki',
     },
     {
+      id: 'wed-book',
+      timeBlock: '5–20 min',
+      title: 'Rupert Snell: read this week\'s chapter',
+      description: 'Open the Roadmap tab → find your current week → read the Snell chapter listed under the 📖 icon. Read the dialogues and grammar explanations. Do the exercises in the book. Then use the Claude session below to drill what you just read.',
+      category: 'Book',
+    },
+    {
       id: 'wed-2',
       timeBlock: '5–20 min',
       title: 'Grammar focus: postpositions',
@@ -164,6 +171,13 @@ export const todos = {
       title: 'Light Anki review',
       description: 'Do due cards only — don\'t add new ones today. Saturday Anki is maintenance, not growth.',
       category: 'Anki',
+    },
+    {
+      id: 'sat-book',
+      timeBlock: '5–20 min',
+      title: 'Rupert Snell: chapter consolidation',
+      description: 'Re-read this week\'s Snell chapter (Roadmap tab → current week → 📖). Focus on the grammar summary at the end of each section. Do any exercises you skipped on Wednesday. Note 2–3 things that still feel unclear and bring them to the Claude session.',
+      category: 'Book',
     },
     {
       id: 'sat-2',

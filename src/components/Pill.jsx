@@ -4,6 +4,7 @@ const palette = {
   Claude:    { bg: 'rgba(255,149,0,0.10)',   color: '#FF9500' },
   Listening: { bg: 'rgba(175,82,222,0.10)',  color: '#AF52DE' },
   Writing:   { bg: 'rgba(255,45,85,0.10)',   color: '#FF2D55' },
+  Book:      { bg: 'rgba(162,132,94,0.12)',  color: '#A2845E' },
   free:      { bg: 'rgba(52,199,89,0.10)',   color: '#34C759' },
   paid:      { bg: 'rgba(255,149,0,0.10)',   color: '#FF9500' },
 }

@@ -15,6 +15,12 @@ function WeekCard({ week, color }) {
           </li>
         ))}
       </ul>
+      {week.book && (
+        <div className="mt-3 flex gap-1.5 items-start text-xs" style={{ color: 'var(--text-secondary)' }}>
+          <span className="shrink-0" style={{ marginTop: '1px' }}>📖</span>
+          <span>{week.book}</span>
+        </div>
+      )}
       {(week.hasPractice || week.hasClaude) && (
         <div className="flex gap-2 mt-3 flex-wrap">
           {week.hasPractice && (
